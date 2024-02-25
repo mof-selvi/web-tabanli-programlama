@@ -105,7 +105,7 @@ Not: void elementler HTML5 standartlarına göre kendini-kapatan (self-closing) 
 </p>
 ```
 
-* Not!
+Not!
 > \<face> etiketi HTML5 standartlarına uygun değildir. Tarayıcılar yavaş yavaş eski standartlara olan desteklerini kaldırıyor olmalarından dolayı bu gibi etiketleri profesyonel hayatta kullanmamak en iyi tercih olacaktır. Fakat, dersimizin ilk haftalarında CSS görmediğiniz için ve çözeceğiniz quizlerde CSS kullanımı yasak olacağı için ilk CSS haftasına kadar olan quiz çözümlerinizde bu etiketleri kullanmalısınız.
 
 ### Alıştırma #2:

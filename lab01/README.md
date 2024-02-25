@@ -1,6 +1,6 @@
 # LAB-01
 
-## HTML dosyası oluşturma
+# 1) HTML dosyası oluşturma
 
 * HTML sayfamızın iskeletini oluşturalım:
 ```
@@ -46,7 +46,7 @@ UTF-8 kodlu bir dosyada UTF-8 karakter setini belirtmek daha iyi bir yoldur:
 
 * Sayfa içerisinde görüntülenmesini istediğimiz içerikleri \<body> etiketi içerisine yazacağız.
 
-## Temel HTML
+# 2) Temel HTML
 
 * Sayfa içeriğinde ortalanmış 1. seviye bir başlık oluşturalım:
 ```
@@ -76,7 +76,7 @@ Not: void elementler HTML5 standartlarına göre kendini-kapatan (self-closing) 
 </p>
 ```
 
-### HTML4 yazı biçimlendirme teknikleri
+# 3) HTML4 yazı biçimlendirme teknikleri
 
 * Yazı boyutu değiştirme:
 ```

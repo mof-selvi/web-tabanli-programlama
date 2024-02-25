@@ -15,7 +15,7 @@
 </html>
 ```
 Not:
-> <!DOCTYPE html> etiketi tarayıcıya döküman tipi hakkında bilgi verir. Profesyonel hayatta HTML5 standartlarına uymak için gereklidir. Fakat, quizlerinizde bu etiketin olup olmaması değerlendirmeleri etkilemeyecektir.
+> \<!DOCTYPE html> etiketi tarayıcıya döküman tipi hakkında bilgi verir. Profesyonel hayatta HTML5 standartlarına uymak için gereklidir. Fakat, quizlerinizde bu etiketin olup olmaması değerlendirmeleri etkilemeyecektir.
 
 * HTML'de bir alanı belirtmek için <etiket>...</etiket> şeklinde etiketleri (tags) kullanırız.
 

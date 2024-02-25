@@ -17,9 +17,9 @@
 Not:
 > \<!DOCTYPE html> etiketi tarayıcıya döküman tipi hakkında bilgi verir. Profesyonel hayatta HTML5 standartlarına uymak için gereklidir. Fakat, quizlerinizde bu etiketin olup olmaması değerlendirmeleri etkilemeyecektir.
 
-* HTML'de bir alanı belirtmek için <etiket>...</etiket> şeklinde etiketleri (tags) kullanırız.
+* HTML'de bir alanı belirtmek için \<etiket>...\</etiket> şeklinde etiketleri (tags) kullanırız.
 
-* Bazı etiketler ise kapama etiketine sahip olmayabilir (void elements). Bunlar belirli bir alanı belirtmek yerine tek başına bir özellik sağlamaktadır. Örneğin, sayfamızın Türkçe karakterleri desteklemesi için <head>...</head> etiketleri arasına şu kodu yerleştirebiliriz:
+* Bazı etiketler ise kapama etiketine sahip olmayabilir (void elements). Bunlar belirli bir alanı belirtmek yerine tek başına bir özellik sağlamaktadır. Örneğin, sayfamızın Türkçe karakterleri desteklemesi için \<head>...\</head> etiketleri arasına şu kodu yerleştirebiliriz:
 ```
 <meta charset="Windows-1254">
 ```
@@ -44,7 +44,7 @@ UTF-8 kodlu bir dosyada UTF-8 karakter setini belirtmek daha iyi bir yoldur:
 <meta name="author" content="Sayfa içeriği yazarının adı soyadı">
 ```
 
-* Sayfa içerisinde görüntülenmesini istediğimiz içerikleri <body> etiketi içerisine yazacağız.
+* Sayfa içerisinde görüntülenmesini istediğimiz içerikleri \<body> etiketi içerisine yazacağız.
 
 ## Temel HTML
 
@@ -57,7 +57,7 @@ UTF-8 kodlu bir dosyada UTF-8 karakter setini belirtmek daha iyi bir yoldur:
 ```
 <hr>
 ```
-Not: void elementler HTML5 standartlarına göre kendini-kapatan (self-closing) olmak zorunda değildir. <hr/> veya <br/> kullanımları eski HTML4 standartları içindir. Günümüzde güncel tarayıcılarda kullanılmaları hata oluşturmasa da mümkün olduğunca kaçınılmalıdır.
+Not: void elementler HTML5 standartlarına göre kendini-kapatan (self-closing) olmak zorunda değildir. \<hr/> veya \<br/> kullanımları eski HTML4 standartları içindir. Günümüzde güncel tarayıcılarda kullanılmaları hata oluşturmasa da mümkün olduğunca kaçınılmalıdır.
 
 * 2. bir başlık oluşturalım:
 ```
@@ -106,10 +106,10 @@ Not: void elementler HTML5 standartlarına göre kendini-kapatan (self-closing) 
 ```
 
 * Not!
-> <face> etiketi HTML5 standartlarına uygun değildir. Tarayıcılar yavaş yavaş eski standartlara olan desteklerini kaldırıyor olmalarından dolayı bu gibi etiketleri profesyonel hayatta kullanmamak en iyi tercih olacaktır. Fakat, dersimizin ilk haftalarında CSS görmediğiniz için ve çözeceğiniz quizlerde CSS kullanımı yasak olacağı için ilk CSS haftasına kadar olan quiz çözümlerinizde bu etiketleri kullanmalısınız.
+> \<face> etiketi HTML5 standartlarına uygun değildir. Tarayıcılar yavaş yavaş eski standartlara olan desteklerini kaldırıyor olmalarından dolayı bu gibi etiketleri profesyonel hayatta kullanmamak en iyi tercih olacaktır. Fakat, dersimizin ilk haftalarında CSS görmediğiniz için ve çözeceğiniz quizlerde CSS kullanımı yasak olacağı için ilk CSS haftasına kadar olan quiz çözümlerinizde bu etiketleri kullanmalısınız.
 
 ### Alıştırma #2:
-* HTML sayfanıza hem boyutu, hem font tipi, hem de rengi değiştirilmiş bir metni tek <face> etiketini kullanarak ekleyiniz.
+* HTML sayfanıza hem boyutu, hem font tipi, hem de rengi değiştirilmiş bir metni tek \<face> etiketini kullanarak ekleyiniz.
 
 ### Alıştırma #3:
 [Kategorik olarak listelenmiş HTML etiketleri](https://www.w3schools.com/tags/ref_byfunc.asp) sayfasına giriniz. Özellikle "Formatting" başlığı altındaki etiketlerden başlayarak HTML etiketleri örneklerini inceleyip kendi sayfanıza uyarlayınız. Bu alıştırmada sayfanıza anlamlı içerikler yerleştirmenize gerek yoktur.

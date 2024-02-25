@@ -59,7 +59,7 @@ UTF-8 kodlu bir dosyada UTF-8 karakter setini belirtmek daha iyi bir yoldur:
 ```
 Not: void elementler HTML5 standartlarına göre kendini-kapatan (self-closing) olmak zorunda değildir. \<hr/> veya \<br/> kullanımları eski HTML4 standartları içindir. Günümüzde güncel tarayıcılarda kullanılmaları hata oluşturmasa da mümkün olduğunca kaçınılmalıdır.
 
-* 2. bir başlık oluşturalım:
+* Seviyesi 2 olan bir başlık oluşturalım:
 ```
 <h2>1. Head Etiketi</h2>
 ```

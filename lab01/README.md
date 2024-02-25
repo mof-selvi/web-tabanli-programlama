@@ -1,4 +1,4 @@
-# Lab01
+# LAB-01
 
 ## HTML dosyası oluşturma
 
@@ -112,4 +112,4 @@ Not: void elementler HTML5 standartlarına göre kendini-kapatan (self-closing) 
 * HTML sayfanıza hem boyutu, hem font tipi, hem de rengi değiştirilmiş bir metni tek <face> etiketini kullanarak ekleyiniz.
 
 ### Alıştırma #3:
-(Kategorik olarak listelenmiş HTML etiketleri)[https://www.w3schools.com/tags/ref_byfunc.asp] sayfasına giriniz. Özellikle "Formatting" başlığı altındaki etiketlerden başlayarak HTML etiketleri örneklerini inceleyip kendi sayfanıza uyarlayınız. Bu alıştırmada sayfanıza anlamlı içerikler yerleştirmenize gerek yoktur.
+[Kategorik olarak listelenmiş HTML etiketleri](https://www.w3schools.com/tags/ref_byfunc.asp) sayfasına giriniz. Özellikle "Formatting" başlığı altındaki etiketlerden başlayarak HTML etiketleri örneklerini inceleyip kendi sayfanıza uyarlayınız. Bu alıştırmada sayfanıza anlamlı içerikler yerleştirmenize gerek yoktur.

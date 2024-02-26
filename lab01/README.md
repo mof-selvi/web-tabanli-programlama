@@ -64,8 +64,10 @@ Not: void elementler HTML5 standartlarına göre kendini-kapatan (self-closing) 
 <h2>1. Head Etiketi</h2>
 ```
 
+---
 ### Alıştırma #1:
 * HTML'de heading etiketleri h1-h6 arasındadır. Diğer seviyelerdeki başlıkları deneyip çıktıyı gözlemleyiniz.
+---
 
 * Sayfamıza bir paragraf yerleştirelim:
 ```

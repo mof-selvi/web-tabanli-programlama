@@ -37,5 +37,5 @@
 # Alıştırma #1
 - BTU tercih websitesindeki [Site Haritası](https://tercih.btu.edu.tr/tr/sayfa/sitemap) sayfasına gidiniz. Bu sayfadan rastgele 3 bölüm seçip bağlantılarına tıklayınız.
 - Açılan sayfalarda bölüm isminin yazdığı, ortada bir "oynat" tuşu bulanan kahverengi resimler göreceksiniz.
-- Bu resimlerin kaynaklarını -dilediğiniz yoldan- elde ederek kendi HTML sayfanızda kullanınız.
+- Bu resimlerin kaynaklarını **dilediğiniz yoldan** elde ederek kendi HTML sayfanızda kullanınız.
 - 3 resmi HTML sayfanızda alt alta ekleyiniz. Her bir resmi, kendi üzerinde belirttiği bölümün adresine gidecek şekilde link/bağlantı haline dönüştürünüz.

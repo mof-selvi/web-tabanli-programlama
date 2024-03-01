@@ -34,6 +34,7 @@
 > Herhangi bir sınıfı (class) \<div> etiketinden başka etiketlerde kullanmama gibi bir sınırlama yoktur. \<div> sadece, varsayılan olarak ekstra biçimlendirme özellikleriyle gelmediği için CSS ile biçimlendirme yaparken daha kullanışlıdır.
 > Sonraki haftalarda CSS konusuna geldiğimizde bu konuya tekrar değineceğiz.
 
+---
 # Alıştırma #1
 - BTU tercih websitesindeki [Site Haritası](https://tercih.btu.edu.tr/tr/sayfa/sitemap) sayfasına gidiniz. Bu sayfadan rastgele 3 bölüm seçip bağlantılarına tıklayınız.
 - Açılan sayfalarda bölüm isminin yazdığı, ortada bir "oynat" tuşu bulanan kahverengi tonlu resimler göreceksiniz.
@@ -42,6 +43,7 @@
 - Her resmin üzerinde bölümün ismini yazınız fakat bu yazılar bağlantıya dahil olmamalıdır.
 - Her bölüm ismini, unordered-list içerisinde bir öğe olacak şekilde ayarlayınız.
 - Resimlerin öğelerin içerisinde mi yoksa arasında mı olması gerektiğini deneyerek bulmaya çalışınız. İki yolu da deneyip tarayıcınızın DOM Tree düzeltmesi yapıp yapmadığını gözlemleyiniz.
+---
 
 - # Yollar (paths)
   HTML'de kaynak adresler veya dosyalar belirtilirken, aynen işletim sistemlerinde olduğu gibi, iki yol kullanılabilir.
@@ -60,6 +62,7 @@
   > Tek nokta (.) şu anki konum, çift nokta (..) bir üst seviyenin konumu anlamına gelmektedir.
   > Mutlak ve bağıl yollar, ilerleyen zamanlarda işleyeceğimiz CSS, JS gibi konular için de önemlidir.
 
+---
 # Alıştırma #2
 - Bir önceki alıştırmada yaptığınız HTML dosyasını klonlayınız ve dosya adının sonuna "2" koyunuz. Bu dosyayı "subpage" isimli bir klasöre koyunuz.
 - Yeni HTML dosyanızdaki resimlerin kaynaklarını bağıl yol olacak şekilde değiştireceksiniz. Bunun için resimleri indirmeniz gerekecektir. Resimleri bir üst dizinde, "subpage" klasörüyle aynı yerde "images" klasörü açarak içerisine kaydediniz.
@@ -73,5 +76,6 @@ index.html
     img2.png
     img3.png
 ```
+---
 
 > Alıştırma sonunda tüm dosyalarınızı *.zip formatında sıkıştırılmış klasöre çevirip Ekampüs'ten ilgili haftanın alıştırma yükleme kısmından göndermeyi unutmayınız. Zip dosyası açıldığında doğrudan ilk HTML dosyanız ve alt klasörleriniz görünmelidir. Lütfen projenizin bulunduğu klasörü değil, içerisindeki tüm dosyaları seçerek sıkıştırma yapınız.

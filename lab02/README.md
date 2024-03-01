@@ -39,3 +39,7 @@
 - Açılan sayfalarda bölüm isminin yazdığı, ortada bir "oynat" tuşu bulanan kahverengi tonlu resimler göreceksiniz.
 - Bu resimlerin kaynaklarını **dilediğiniz yoldan** elde ederek kendi HTML sayfanızda kullanınız.
 - 3 resmi HTML sayfanızda alt alta ekleyiniz. Her bir resmi, kendi üzerinde belirttiği bölümün adresine gidecek şekilde link/bağlantı haline dönüştürünüz.
+- Her resmin üzerinde bölümün ismini yazınız fakat bu yazılar bağlantıya dahil olmamalıdır.
+- Her bölüm ismini, unordered-list içerisinde bir öğe olacak şekilde ayarlayınız.
+- Resimlerin öğelerin içerisinde mi yoksa arasında mı olması gerektiğini deneyerek bulmaya çalışınız. İki yolu da deneyip tarayıcınızın DOM Tree düzeltmesi yapıp yapmadığını gözlemleyiniz.
+> Alıştırma sonunda dosyalarınızı Ekampüs'ten ilgili haftanın alıştırma yükleme kısmından göndermeyi unutmayınız.

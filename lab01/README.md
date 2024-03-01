@@ -108,10 +108,10 @@ Not: void elementler HTML5 standartlarına göre kendini-kapatan (self-closing) 
 ```
 
 Not!
-> \<face> etiketi HTML5 standartlarına uygun değildir. Tarayıcılar yavaş yavaş eski standartlara olan desteklerini kaldırıyor olmalarından dolayı bu gibi etiketleri profesyonel hayatta kullanmamak en iyi tercih olacaktır. Fakat, dersimizin ilk haftalarında CSS görmediğiniz için ve çözeceğiniz quizlerde CSS kullanımı yasak olacağı için ilk CSS haftasına kadar olan quiz çözümlerinizde bu etiketleri kullanmalısınız.
+> \<font> etiketi HTML5 standartlarına uygun değildir. Tarayıcılar yavaş yavaş eski standartlara olan desteklerini kaldırıyor olmalarından dolayı bu gibi etiketleri profesyonel hayatta kullanmamak en iyi tercih olacaktır. Fakat, dersimizin ilk haftalarında CSS görmediğiniz için ve çözeceğiniz quizlerde CSS kullanımı yasak olacağı için ilk CSS haftasına kadar olan quiz çözümlerinizde bu etiketleri kullanmalısınız.
 
 ### Alıştırma #2:
-* HTML sayfanıza hem boyutu, hem font tipi, hem de rengi değiştirilmiş bir metni tek \<face> etiketini kullanarak ekleyiniz.
+* HTML sayfanıza hem boyutu, hem font tipi, hem de rengi değiştirilmiş bir metni tek \<font> etiketini kullanarak ekleyiniz.
 
 ### Alıştırma #3:
 [Kategorik olarak listelenmiş HTML etiketleri](https://www.w3schools.com/tags/ref_byfunc.asp) sayfasına giriniz. Özellikle "Formatting" başlığı altındaki etiketlerden başlayarak HTML etiketleri örneklerini inceleyip kendi sayfanıza uyarlayınız. Bu alıştırmada sayfanıza anlamlı içerikler yerleştirmenize gerek yoktur.

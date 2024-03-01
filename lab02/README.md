@@ -62,6 +62,12 @@
   > Tek nokta (.) şu anki konum, çift nokta (..) bir üst seviyenin konumu anlamına gelmektedir.
   > Mutlak ve bağıl yollar, ilerleyen zamanlarda işleyeceğimiz CSS, JS gibi konular için de önemlidir.
 
+  Dikkat!
+  > "C:/Users/bilmuh/Desktop/HTML%20Projesi/resim.jpg" \
+  > veya \
+  > "file:///C:/Users/bilmuh/Desktop/HTML%20Projesi/resim.jpg" \
+  > şeklinde bir kaynak gösterimini web uygulamalarınızda asla kullanmayınız. Bu mutlak yol yalnızca sizin bilgisayarınızda geçerli bir yoldur. Bir web uygulaması için mutlak yol http:// veya https:// ile başlar.
+
 ---
 # Alıştırma #2
 - Bir önceki alıştırmada yaptığınız HTML dosyasını klonlayınız ve dosya adının sonuna "2" koyunuz. Bu dosyayı "subpage" isimli bir klasöre koyunuz.

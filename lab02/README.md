@@ -1,6 +1,6 @@
 # LAB-02
 
-# 1) HTML'de Resim
+# -1) HTML'de Resim
 ```
 <img src="https://depo.btu.edu.tr/img/sayfa//1691131969_8a51c342027f1a147a8b.png">
 ```

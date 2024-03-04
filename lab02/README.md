@@ -124,10 +124,11 @@ index.html
     img2.png
     img3.png
 ```
----
 
 
 ---
+
+
 # Alıştırma #3
 - kayit_formu.html ve kayit_yap.html isimleriyle 2 adet HMTL dosyası oluşturunuz.
 - "kayit_formu.html" dosyasına, yukarıdaki HTML form oluşturma kodlarını kullanarak, kullanıcılardan kayıt bilgilerinin alınabildiği bir form yerleştiriniz.

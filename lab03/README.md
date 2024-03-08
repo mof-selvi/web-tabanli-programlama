@@ -108,6 +108,10 @@
 </html>
 ```
 
+
+---
+
+
 - # CSS Çeşitleri
 - 3 çeşit CSS vardır:
   - Internal CSS (dahili)
@@ -188,6 +192,17 @@ stilim.css dosyasının içeriği:
 }
 ```
 
+
+---
+
+
+- # CSS Komutları
+- Daha fazla CSS komutu için [Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) sayfasından güncel bilgileri takip edebilirsiniz.
+
+
+---
+
+
 - # CSS Selectors
 - İyi biçimlendirme yapmak için selector'ları kullanmayı bilmek önemlidir.
 - Bu selector'lar çoğunlukla Javascript kodlarında, HTML sayfalarda belirli bir alanı seçebilmek ve üzerinde işlemler yapabilmek için de kullanılır.
@@ -195,6 +210,10 @@ stilim.css dosyasının içeriği:
     - [W3Schools](https://www.w3schools.com/cssref/css_selectors.php)
     - [Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)
     - [Mozilla Learn](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors)
+
+
+---
+
 
 - # CSS'te Responsive Tasarım
 - Telefon, tablet veya bilgisayar farketmeksizin her türlü ekran çözünürlüğüne uyumlu şekilde bir web uygulaması arayüzü geliştirmek için CSS'in @media kuralı kullanılabilir.
@@ -242,10 +261,15 @@ stilim.css dosyasının içeriği:
 - Bu kurallar sayesinde HTML ögelere, cihaza göre; yeniden boyutlandırma, germe, daraltma, yeni satıra kaydırma, yan yana koyma vb çeşitli özellikler kazandırılabilir.
 
 
+---
+
+
 - # CSS Kütüphaneleri
 - [Bootstrap](https://getbootstrap.com/), [Bulma](https://bulma.io/), [W3.CSS](https://www.w3schools.com/w3css/w3css_intro.asp) vb kütüphaneler ile responsive tasarımlar yapmak daha kolaydır.
 
+
 ---
+
 
 - # Alıştırma #1
 > Dikkat! Bu alıştırma yukarıda bahsi geçen kütüphanelerin dökümanlarını incelemeyi gerektirir. Alıştırma boyunca bu kaynaklardan faydalanmanız yasak olmamakla beraber kesinlikle tavsiye edilir. Yönlendirme için yardım istemekten çekinmeyiniz.

@@ -267,6 +267,7 @@ stilim.css dosyasının içeriği:
 
 - # CSS Kütüphaneleri
 - [Bootstrap](https://getbootstrap.com/), [Bulma](https://bulma.io/), [W3.CSS](https://www.w3schools.com/w3css/w3css_intro.asp) vb kütüphaneler ile responsive tasarımlar yapmak daha kolaydır.
+- Bu kütüphanelerde class'lar hazır halde bulunmaktadır. HTML ögelere bu class'ları, dökümanlarda belirtildiği şekilde atamak yeterli olmaktadır.
 
 
 ---

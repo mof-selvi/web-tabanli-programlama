@@ -196,3 +196,56 @@ stilim.css dosyasının içeriği:
     - [Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)
     - [Mozilla Learn](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors)
 
+- # CSS'te Responsive Tasarım
+- Telefon, tablet veya bilgisayar farketmeksizin her türlü ekran çözünürlüğüne uyumlu şekilde bir web uygulaması arayüzü geliştirmek için CSS'in @media kuralı kullanılabilir.
+- Aşağıdaki örneği çalıştırırken tarayıcının genişliğini azaltıp artırmayı deneyiniz. @media kurallarına göre arkaplan renklerinin değiştiğine dikkat ediniz.
+```
+<!doctype html>
+<html>
+<head>
+    <title>CSS'e Giriş</title>
+    <style>
+        @media only screen and (min-width: 500px) and (max-width: 1000px) {
+            .stilA {
+                background-color: #2fc;
+            }
+
+            .stilB {
+                background-color: #cf2;
+            }
+        }
+
+        @media only screen and (min-width: 1001px) {
+            .stilA {
+                background-color: rgb(188, 152, 220);
+            }
+
+            .stilB {
+                background-color: rgb(147, 87, 137);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="stilA">
+        Satır 1
+    </div>
+
+    <div class="stilB">
+        Satır 2
+    </div>
+
+</body>
+</html>
+```
+- Bu kurallar sayesinde HTML ögelere, cihaza göre; yeniden boyutlandırma, germe, daraltma, yeni satıra kaydırma, yan yana koyma vb çeşitli özellikler kazandırılabilir.
+
+
+- # CSS Kütüphaneleri
+- [Bootstrap](https://getbootstrap.com/), [Bulma](https://bulma.io/), [W3.CSS](https://www.w3schools.com/w3css/w3css_intro.asp) vb kütüphaneler ile responsive tasarımlar yapmak daha kolaydır.
+
+---
+
+- # Alıştırma #1
+- 

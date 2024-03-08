@@ -198,6 +198,7 @@ stilim.css dosyasının içeriği:
 
 - # CSS Komutları
 - Daha fazla CSS komutu için [Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) sayfasından güncel bilgileri takip edebilirsiniz.
+- Diğer kaynaklar: [CSSReference](https://cssreference.io/), [W3Schools](https://www.w3schools.com/cssref/index.php)
 
 
 ---

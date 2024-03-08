@@ -151,7 +151,28 @@
 
 sayfam.html dosyasının içeriği
 ```
-<link rel="stylesheet" href="stilim.css" type="text/css">
+<!doctype html>
+<html>
+<head>
+    <title>CSS'e Giriş</title>
+    <link rel="stylesheet" href="stilim.css" type="text/css">
+</head>
+<body>
+
+    <div class="stilA">
+        stilA sınıflı div
+    </div>
+
+    <div class="stilB">
+        stilB sınıflı div
+    </div>
+
+    <div class="stilA stilB">
+        Hem stilA hem de stilB sınıflı div
+    </div>
+
+</body>
+</html>
 ```
 
 stilim.css dosyasının içeriği:

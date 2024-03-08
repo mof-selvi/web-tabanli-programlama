@@ -248,4 +248,15 @@ stilim.css dosyasının içeriği:
 ---
 
 - # Alıştırma #1
-- 
+> Dikkat! Bu alıştırma yukarıda bahsi geçen kütüphanelerin dökümanlarını incelemeyi gerektirir. Alıştırma boyunca bu kaynaklardan faydalanmanız yasak olmamakla beraber kesinlikle tavsiye edilir. Yönlendirme için yardım istemekten çekinmeyiniz.
+- Aşağıdaki görsele uygun tasarımı yukarıdaki 3 açık kaynak kütüphaneden birini kullanarak uygulayınız. (Bulma veya Bootstrap kullanmanız önerilir.)
+![Responsive Tasarım Alıştırması](responsive-tasarim-alistirmasi.png)
+- Sayfa içeriğine "lorem5000" yerleştiriniz.
+- Menü linklerinde href nitelikleri için "#" değerini kullanınız.
+- Tarayıcı genişliği 1000px'in (yaklaşık değerdir, kullandığınız kütüphanenin dökümanını inceleyiniz ve 1000px üzerindeki en düşük breakpoint'i kullanınız) altına düştüğünde;
+    - Sol menü, sayfa içeriğinin üstünde olmalı (column numaralarını ayarlayınız)
+    - "Menü" başlığı kaybolmalı (ilave internal/inline css ile "display:none;" ve "display:block;" ifadelerini kullanınız)
+    - Ana Sayfa butonu üst barın soluna, "Giriş Yap" ve "Kayıt Ol" butonları aynı hizada barın sağ tarafına yaslı olmalıdır.
+    - Tablo kullanmayınız. (Ya da isterseniz kullanın ve responsive tasarım için neden uygun olmadığını görün. Ama gönderimleriniz içerisinde table etiketi bulunmamalıdır.)
+
+> Tüm projeniz 1 adet HTML ve 1 adet CSS dosyasından oluşmalı. Projenizi ziplemeyiniz. 2 dosyayı birlikte Ekampüs'e yüklemeyi unutmayınız.

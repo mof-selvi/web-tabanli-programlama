@@ -370,7 +370,9 @@ stilim.css dosyasının içeriği:
 - # Alıştırma #1
 - Son HTML örneğini kendi dosyanızı oluşturarak deneyiniz.
 - Sayfayı çalıştırdıktan sonra HTML ögelere sağ tıklayıp "Denetle" veya "Ögeyi İncele" seçenekleriyle bu ögeler için ayarlanmış CSS ayarlarını inceleyiniz.
+
 ![HTML Öge Stilleri](html-item-styles.png)
+
 
 
 ---

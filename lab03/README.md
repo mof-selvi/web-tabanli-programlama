@@ -269,14 +269,117 @@ stilim.css dosyasının içeriği:
 - [Bootstrap](https://getbootstrap.com/), [Bulma](https://bulma.io/), [W3.CSS](https://www.w3schools.com/w3css/w3css_intro.asp) vb kütüphaneler ile responsive tasarımlar yapmak daha kolaydır.
 - Kullanılacak kütüphanenin CSS dosyasını harici CSS olarak HTML sayfada belirtmek gerekir. (Bootstrap ek JS dosyaları gerektirebilir. Bulma ve W3CSS yalın bir *.css dosyasından oluşmaktadır.)
 - Bu kütüphanelerde class'lar hazır halde bulunmaktadır. HTML ögelere bu class'ları, dökümanlarda belirtildiği şekilde atamak tasarım için çoğu zaman yeterli olmaktadır.
+- Bütün HTML sayfanın genişliği genellikle 12 eş parçaya ayrılır ve ögeler bu 12 birimlik uzunluğu dolduracak şekilde yerleştirilir.
+
+
+---
+
+- # Bulma CSS Kütüphanesi
+- Kolay kullanımlı ve hafif bir CSS kütüphanesidir.
+- Tasarıma başlamak için aşağıdaki HTML kodu kullanmak yeterlidir: ( [Kaynak](https://bulma.io/documentation/overview/start/) )
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Hello World
+      </h1>
+      <p class="subtitle">
+        My first website with <strong>Bulma</strong>!
+      </p>
+    </div>
+  </section>
+  </body>
+</html>
+```
+
+- Bulma'nın standart içerik yerleştirme alanı container class'ına sahip div etiketinin içidir. (Buna benzer durum Bootstrap vb. kütüphanelerde de vardır.)
+- İçerik kısmına satırlarımızı "columns" sınıfıyla, satır içlerine sütun tanımlamalarımızı ise "column" sınıfıyla yaparız:
+```
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+<body>
+
+    <section class="section">
+        <div class="container is-fluid">
+
+            <div class="columns">
+
+                <div class="column is-6 is-info">
+                    <p class="notification is-primary">6br kolon</p>
+                </div>
+
+                <div class="column">
+                    <p class="notification is-warning">Otomatik genişlikte kolon</p>
+                </div>
+
+            </div>
+
+            
+            <div class="columns">
+
+                <div class="column is-8 is-info">
+                    <p class="notification is-primary">8br kolon</p>
+                </div>
+
+                <div class="column">
+                    <p class="notification is-warning">Otomatik genişlikte kolon</p>
+                </div>
+
+                <div class="column">
+                    <p class="notification is-warning">Otomatik genişlikte kolon</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
+```
+
+> Yukarıdaki örnekte p etiketi ile kullanılan notification class'ı, div'in sınırlarını belli etmek amacıyla kullanılmıştır. p etiketi olmadan da HTML içerik yerleştirilebilir.
+
+> info, warning, danger, link, success vb isimlerde CSS class'ları pek çok kütüphanede kolay renklendirme yapabilmek için bulunur.
+
+> Yukarıdaki örnekte "container" div'i için "is-fluid" sınıfı da kullanılmıştır. Bu Bulma'da geniş ekran içerik taşıyıcısı manasına gelmektedir. [Daha fazlası için kaynak.](https://bulma.io/documentation/layout/container/)
+
 
 
 ---
 
 
 - # Alıştırma #1
+- Son HTML örneğini kendi dosyanızı oluşturarak deneyiniz.
+- Sayfayı çalıştırdıktan sonra HTML ögelere sağ tıklayıp "Denetle" veya "Ögeyi İncele" seçenekleriyle bu ögeler için ayarlanmış CSS ayarlarını inceleyiniz.
+![HTML Öge Stilleri](html-item-styles.png)
+
+
+---
+
+
+
+- # Alıştırma #2
 > Dikkat! Bu alıştırma yukarıda bahsi geçen kütüphanelerin dökümanlarını incelemeyi gerektirir. Alıştırma boyunca bu kaynaklardan faydalanmanız yasak olmamakla beraber kesinlikle tavsiye edilir. Yönlendirme için yardım istemekten çekinmeyiniz.
-- Aşağıdaki görsele uygun tasarımı yukarıdaki 3 açık kaynak kütüphaneden birini kullanarak uygulayınız. (Bulma önerilir.)
+- Aşağıdaki görsele uygun tasarımı Bulma kütüphanesini kullanarak uygulayınız. Kütüphaneye ait CSS dosyasını indirip, HTML sayfanızın doğrudan bu dosyayı kullanmasını sağlayınız.
 
 ![Responsive Tasarım Alıştırması](responsive-tasarim-alistirmasi.png)
 
@@ -287,5 +390,5 @@ stilim.css dosyasının içeriği:
     - "Menü" başlığı kaybolmalı (ilave internal/inline css ile "display:none;" ve "display:block;" ifadelerini kullanınız)
     - Ana Sayfa butonu üst barın soluna, "Giriş Yap" ve "Kayıt Ol" butonları aynı hizada barın sağ tarafına yaslı olmalıdır.
     - Tablo kullanmayınız. (Ya da isterseniz kullanın ve responsive tasarım için neden uygun olmadığını görün. Ama gönderimleriniz içerisinde table etiketi bulunmamalıdır.)
-
+    - [Yardımcı kaynak](https://bulma.io/documentation/columns/responsiveness/)
 > Tüm projeniz 1 adet HTML ve 1 adet CSS dosyasından oluşmalı. Projenizi ziplemeyiniz. 2 dosyayı birlikte Ekampüs'e yüklemeyi unutmayınız.

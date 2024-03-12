@@ -373,6 +373,7 @@ stilim.css dosyasının içeriği:
 
 ![HTML Öge Stilleri](html-item-styles.png)
 
+> Bu alıştırmada yüklemenizi gerektirecek bir dosyanız veya kodunuz olmayacaktır. Bu kısım için oluşturduğunuz HTML dosyasını Ekampüs'e yüklemeyiniz.
 
 
 ---

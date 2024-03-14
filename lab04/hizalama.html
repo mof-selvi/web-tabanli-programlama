@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block ve Flex Hizalama Örnekleri</title>
+    <style>
+        /* Genel stil */
+        .container {
+            width: 300px;
+            height: 200px;
+            border: 2px solid black;
+            margin-bottom: 20px;
+        }
+
+        /* İçerik kutusu */
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+
+<h3>Block Düzeni + Yazı Hizalama Örnekleri</h3>
+<div class="container">
+    <div style="text-align: center;">
+        <div class="box">İçerik</div>
+    </div>
+</div>
+
+<div class="container">
+    <div style="text-align: right;">
+        <div class="box">İçerik</div>
+    </div>
+</div>
+
+
+<h3>Block Düzeni + Margin Hizalama Örnekleri</h3>
+<div class="container">
+    <div style="text-align: center;">
+        <div class="box" style="margin: 0 auto;">İçerik</div>
+    </div>
+</div>
+
+<div class="container">
+    <div style="text-align: right;">
+        <div class="box" style="margin: 0 auto;">İçerik</div>
+    </div>
+</div>
+
+
+<h3>Flex Düzeni Hizalama Örnekleri</h3>
+<div class="container">
+    <div style="display: flex; justify-content: center;">
+        <div class="box">İçerik</div>
+    </div>
+</div>
+
+<div class="container">
+    <div style="display: flex; align-items: center;">
+        <div class="box">İçerik</div>
+    </div>
+</div>
+
+
+<h3>Flex Düzeni Hizalama + Yazı Hizalama Örnekleri</h3>
+<div class="container">
+    <div style="display: flex; justify-content: center; text-align: center;">
+        <div class="box">İçerik</div>
+    </div>
+</div>
+
+<div class="container">
+    <div style="display: flex; align-items: center; text-align: right;">
+        <div class="box">İçerik</div>
+    </div>
+</div>
+
+</body>
+</html>

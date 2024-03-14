@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS | Display Alıştırmaları</title>
+    <style>
+
+        /* Dış divlerin çerçeve sınırları */
+        .container {
+            border: 2px solid red;
+            /* margin-bottom: 20px; */
+        }
+
+        /* Her bir div içindeki içeriklerin düzeni */
+        .inner-container {
+            display: inline-block;
+        }
+
+        /* Kare şeklinde arkaplanı renkli divler */
+        .box {
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+            background-color: lightblue;
+            border: 1px solid orange;
+            display: inline-block;
+        }
+
+
+        /* block öğe */
+        .display-block {
+            display: block;
+        }
+
+        /* inline öğe */
+        .display-inline {
+            display: inline;
+        }
+
+        /* inline-block öğe */
+        .display-inline-block {
+            display: inline-block;
+        }
+
+        /* gizlenmiş öğe */
+        .display-none {
+            display: none;
+        }
+
+        /* flex konteyneri */
+        .display-flex {
+            display: flex;
+        }
+
+        /* grid konteyneri */
+        .display-grid {
+            display: grid;
+        }
+
+        /* table konteyneri */
+        .display-table {
+            display: table;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <hr>
+
+    <h2>display: block</h2>
+    <div class="container display-block">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+    <hr>
+
+    <h2>display: inline</h2>
+    <div class="container display-inline">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+    <hr>
+
+    <h2>display: inline-block</h2>
+    <div class="container display-inline-block">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+    <hr>
+
+    <h2>display: none</h2>
+    <div class="container display-none">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+    <hr>
+
+    <h2>display: flex</h2>
+    <div class="container display-flex">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+    <hr>
+
+    <h2>display: grid</h2>
+    <div class="container display-grid">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+    <hr>
+
+    <h2>display: table</h2>
+    <div class="container display-table">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

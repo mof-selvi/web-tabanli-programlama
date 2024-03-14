@@ -134,11 +134,23 @@ CSS'de `display` özelliği, bir HTML öğesinin nasıl gösterileceğini belirl
 > Bu CSS örneği, `display` özelliğinin farklı seçeneklerini kullanan farklı HTML öğeleri için hazırlanmış class'ları içerir.
 
 
-# Alıştırma #1
+# Örnek #1
 - [duzenler.html](duzenler.html) dosyasını bilgisayarınıza indiriniz. Örneği çalıştırıp her bir `container` class'lı div'in çıktısını inceleyiniz.
 
-
-# Alıştırma #2
+# Örnek #2
 - [hizalama.html](hizalama.html) dosyasını bilgisayarınıza indiriniz. Hizalama örneklerini inceleyiniz.
 
-# Alıştırma #3
+# Alıştırma #1
+- Aşağıdaki görsele uygun bir davetiye sayfası oluşturunuz.
+
+![davetiye.png](davetiye.png)
+
+- Tüm tasarımı sadece `flex` düzeni ile tek bir HTML dosyası içerisinde oluşturunuz. Tablo kullanmayınız.
+- Davetiye sayfasınızın içeriği tüm sayfayı kaplamalıdır.
+- Ortadaki metin alanı tüm ekranın ortasında bulunmalıdır. Metin alanı için margin/padding ayarlarına ve dış çerçeve çizgisine dikkat ediniz.
+- Logolar "orta-üst"te ve "sağ-üst"te bulunmalıdır.
+- Logolar için [BTU Kurumsal Kimlik](https://btu.edu.tr/tr/sayfa/detay/3401/kurumsal-kimlik) sayfasından faydalanabilirsiniz.
+- Sol-alttaki ve sağ alttaki metinlerin hizalamalarına dikkat ediniz.
+- Renklerin yaklaşık değerlerde olması, farklı fontta gözüken alanlarda farklı fontlar belirtilmiş olması yeterlidir. Font ve renklerin birebir aynı olması beklenmemektedir.
+
+> HTML dosyanızı Ekampüs'ten yüklemeyi unutmayınız.

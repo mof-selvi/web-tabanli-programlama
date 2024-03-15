@@ -47,6 +47,17 @@ Padding ve margin değerlerine tek, çift ve dörtlü değerler verilebilir:
 }
 ```
 
+
+---
+
+
+# Örnek #1
+- Yukarıdaki örnekte bulunan sonuncu element class'ını bir HTML ögesinde kullanınız. Ögeyi tarayıcınızın geliştirici araçlarını kullanarak inceleyiniz. `margin` ve `padding` değerlerinin tüm yönlerdeki değerlerini kontrol ediniz.
+
+
+---
+
+
 ### Gölgelendirme
 
 ```css
@@ -131,7 +142,10 @@ CSS'de `display` özelliği, bir HTML öğesinin nasıl gösterileceğini belirl
         }
 ```
 
-> Bu CSS örneği, `display` özelliğinin farklı seçeneklerini kullanan farklı HTML öğeleri için hazırlanmış class'ları içerir.
+> Bu CSS örneği, `display` özelliğinin farklı seçeneklerini kullanan farklı HTML ögeleri için hazırlanmış class'ları içerir. Her class ayrı ögelerde kullanılmalıdır.
+
+
+---
 
 
 # Örnek #1
@@ -139,6 +153,10 @@ CSS'de `display` özelliği, bir HTML öğesinin nasıl gösterileceğini belirl
 
 # Örnek #2
 - [hizalama.html](hizalama.html) dosyasını bilgisayarınıza indiriniz. Hizalama örneklerini inceleyiniz.
+
+
+---
+
 
 # Alıştırma #1
 - Aşağıdaki görsele uygun bir davetiye sayfası oluşturunuz.

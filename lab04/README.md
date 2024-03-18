@@ -101,8 +101,6 @@ CSS'de `display` özelliği, bir HTML öğesinin nasıl gösterileceğini belirl
 
 6. **grid**: Öğeyi bir grid konteyneri olarak görüntüler. Grid konteynerleri, içerdikleri öğeleri bir ızgara (grid) içinde hizalar ve öğelerin konumunu ve boyutunu kontrol edebilirler.
 
-6. **grid**: Öğeyi bir grid konteyneri olarak görüntüler. Grid konteynerleri, içerdikleri öğeleri bir ızgara (grid) içinde hizalar ve öğelerin konumunu ve boyutunu kontrol edebilirler.
-
 7. **table**: Öğeyi bir tablo olarak görüntüler. `table` özelliği, içeriğin tablo olarak düzenlenmesini sağlar. Tablo öğeleri (`<table>`, `<tr>`, `<td>`, `<th>`) için kullanılır. Bu özellik, tablo düzenini kullanmak istediğinizde faydalıdır.
 
 ```css

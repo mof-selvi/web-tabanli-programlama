@@ -165,6 +165,8 @@ CSS'de `display` özelliği, bir HTML öğesinin nasıl gösterileceğini belirl
 ![davetiye.png](davetiye.png)
 
 - Tüm tasarımı `flex` veya `grid` düzenleri ile tek bir HTML dosyası içerisinde oluşturunuz. Tablo kullanmayınız.
+    - [Flexbox dökümanları](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+    - [Grid dökümanları](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids)
 - Davetiye sayfasınızın içeriği tüm sayfayı kaplamalıdır.
 - Ortadaki metin alanı tüm ekranın ortasında bulunmalıdır. Metin alanı için margin/padding ayarlarına ve dış çerçeve çizgisine dikkat ediniz.
 - Logolar "orta-üst"te ve "sağ-üst"te bulunmalıdır.

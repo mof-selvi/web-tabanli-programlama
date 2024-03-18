@@ -68,7 +68,7 @@ Padding ve margin değerlerine tek, çift ve dörtlü değerler verilebilir:
 
 ### Kalıtım ve Important İfadesi
 
-- Aşağıdaki tüm class'ları tek bir HTML ögesinde kullanınız. Çalıştırdıktan sonra kod satırlarının yerlerini değiştirip tekrar çalıştırmayı deneyiniz.
+- 1. Aşağıdaki tüm class'ları tek bir HTML ögesinde kullanınız. Çalıştırdıktan sonra kod satırlarının yerlerini değiştirip tekrar çalıştırmayı deneyiniz.
 
 ```css
 /* Kalıtım */
@@ -84,6 +84,9 @@ Padding ve margin değerlerine tek, çift ve dörtlü değerler verilebilir:
     color: red !important;
 }
 ```
+
+- 2. Yukarıdaki parent class'ını bir üst seviye div'de, child class'ını ise bunun içindeki bir div'de kullanınız. İçerideki div'in class'ları arasına element class'ını ekleyip çıkararak değişiklikleri gözlemleyiniz.
+
 
 ### Display
 
@@ -161,7 +164,7 @@ CSS'de `display` özelliği, bir HTML öğesinin nasıl gösterileceğini belirl
 
 ![davetiye.png](davetiye.png)
 
-- Tüm tasarımı sadece `flex` düzeni ile tek bir HTML dosyası içerisinde oluşturunuz. Tablo kullanmayınız.
+- Tüm tasarımı `flex` veya `grid` düzenleri ile tek bir HTML dosyası içerisinde oluşturunuz. Tablo kullanmayınız.
 - Davetiye sayfasınızın içeriği tüm sayfayı kaplamalıdır.
 - Ortadaki metin alanı tüm ekranın ortasında bulunmalıdır. Metin alanı için margin/padding ayarlarına ve dış çerçeve çizgisine dikkat ediniz.
 - Logolar "orta-üst"te ve "sağ-üst"te bulunmalıdır.

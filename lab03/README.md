@@ -395,3 +395,7 @@ stilim.css dosyasının içeriği:
     - Tablo kullanmayınız. (Ya da isterseniz kullanın ve responsive tasarım için neden uygun olmadığını görün. Ama gönderimleriniz içerisinde table etiketi bulunmamalıdır.)
     - [Yardımcı kaynak](https://bulma.io/documentation/columns/responsiveness/)
 > Tüm projeniz 1 adet HTML ve 1 adet CSS dosyasından oluşmalı. Projenizi ziplemeyiniz. 2 dosyayı birlikte Ekampüs'e yüklemeyi unutmayınız.
+
+- ## Çözüm:
+- [bulma.html](bulma.html) bağlantısından çözüme ulaşabilirsiniz.
+> Not: Bu alıştırmada ve benzeri çalışmalarda çok sayıda çözüm bulunur. Cevabınız çalışıyorsa fakat buradaki çözümden farklı ise bu hata yaptığınız anlamına gelmeyebilir. Yine de; en yalın ve geliştirilmeye en yatkın haliyle (geliştirmek veya uyarlamak istediğimizde en az sayıda değişiklik yapmamızın gerekeceği şekilde) kodlama yapmak önemlidir.

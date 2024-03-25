@@ -518,6 +518,74 @@ greet("Ahmet");
 
 
 
+<details>
+    <summary>Döngüler</summary>
+
+### **for**
+
+```javascript
+// 1'den 5'e kadar olan sayıları ekrana yazdıran for döngüsü
+for (let i = 1; i <= 5; i++) {
+    console.log(i);
+}
+```
+
+### **while**
+
+```javascript
+// 1'den 5'e kadar olan sayıları ekrana yazdıran while döngüsü
+let j = 1;
+while (j <= 5) {
+    console.log(j);
+    j++;
+}
+```
+
+### **do...while**
+
+```javascript
+// 1'den 5'e kadar olan sayıları ekrana yazdıran do...while döngüsü
+let k = 1;
+do {
+    console.log(k);
+    k++;
+} while (k <= 5);
+```
+
+### **forEach**
+
+```javascript
+// Bir dizi üzerinde forEach döngüsü kullanımı
+let numbers = [1, 2, 3, 4, 5];
+numbers.forEach(function(number) {
+    console.log(number);
+});
+```
+
+### **for...in:**
+
+```javascript
+// Bir nesne üzerinde for...in döngüsü kullanımı
+let person = {
+    name: "John",
+    age: 30,
+    city: "New York"
+};
+for (let key in person) {
+    console.log(key + ": " + person[key]);
+}
+```
+
+</details>
+
+
+
+
+---
+
+
+
+
 
 <details>
   <summary>JavaScript ile DOM Manipülasyonu</summary>

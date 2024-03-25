@@ -56,8 +56,6 @@ alert("Merhaba BTU!");
 
 
 
-
-
 <details>
   <summary>2. Inline Event Handler:</summary>
 

@@ -749,6 +749,34 @@ buttonElement.addEventListener("click", function() {
 </details>
 
 
+
+---
+
+
+<details>
+  <summary>JS'de Dinamik HTML Ögeler</summary>
+
+- JS'de, HTML ögeleri önce hazırlayıp sonra sayfaya yerleştirmek, doğrudan yerleştirmeye başlamaktan daha iyi bir çözümdür.
+
+`const new_p = document.createElement("p")`
+- Bir `p` etiketi oluşturur fakat bu etiket henüz DOM içerisinde değildir.
+- Etiket ögesi sadece `new_p` isimli değişkene atanır.
+
+`new_p.innerText = "Bursa Teknik Üniversitesi.";`
+- Dinamik ögenin içeriği değiştirilebilir.
+
+`document.body.appendChild(new_p);`
+- Öge, HTML dökümanın `body` nesnesinin (body etiketini gösteren pointer'dır) içerisine child olarak eklenir.
+
+
+#### Detaylı Kaynaklar:
+- [createElement()](https://www.w3schools.com/jsref/met_document_createelement.asp)
+- [appendChild()](https://www.w3schools.com/jsref/met_node_appendchild.asp)
+- [remove()](https://www.w3schools.com/jsref/met_element_remove.asp)
+
+</details>
+
+
 ---
 
 

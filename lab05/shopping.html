@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alışveriş Listem</title>
+        <style>
+            body {
+                background-color: #d8d8d8;
+            }
+            h1 {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: rgb(154, 94, 94);
+            }
+
+            hr {
+                background-color: rgb(116, 158, 149);
+                height: 8px;
+                border: 0;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>Ürün Ekleme</h1>
+
+        <form action="#" onsubmit="">
+            <input type="text" id="newitem">
+            <button type="button" onclick="AddNewItem()">Ekle</button>
+        </form>
+
+        <hr>
+
+        <h1>Ürünler</h1>
+
+        <div>Ürün Adı | Ürün Birim Fiyatı | Adet | Sil</div>
+        <br>
+        <div id="items">
+
+        </div>
+
+        <hr>
+
+        <h1>Toplam</h1>
+
+        <div id="total"></div>
+
+    </body>
+
+    <script>
+        var AddNewItem = () =>
+        {
+            var newItemInput = document.getElementById("newitem");
+            var items = document.getElementById("items");
+            var itemsCount = document.querySelectorAll("#items > div").length;
+            var currendID = itemsCount;
+
+
+            var new_ParentDiv = document.createElement("div");
+            new_ParentDiv.setAttribute("itemid", ""+currendID);
+            new_ParentDiv.setAttribute("id","item_"+currendID);
+
+            new_ParentDiv.append(""+newItemInput.value);
+
+            items.appendChild(new_ParentDiv);
+            new_ParentDiv.append(" | ");
+
+            var new_input_price = document.createElement("input");
+            new_input_price.setAttribute("id","price_"+currendID);
+            new_input_price.setAttribute("onchange","RefreshTotal();");
+            new_input_price.setAttribute("type","number");
+            
+            new_ParentDiv.appendChild(new_input_price);
+            new_ParentDiv.append(" | ");
+
+            var new_input_unit = document.createElement("input");
+            new_input_unit.setAttribute("id","unit_"+currendID);
+            new_input_unit.setAttribute("onchange","RefreshTotal();");
+            new_input_unit.setAttribute("type","number");
+
+            new_ParentDiv.appendChild(new_input_unit);
+            new_ParentDiv.append(" | ");
+
+            var new_button = document.createElement("button");
+            new_button.setAttribute("type","button");
+            new_button.setAttribute("onclick","this.parentElement.remove(); RefreshTotal();");
+            new_button.innerHTML = "X";
+            
+            new_ParentDiv.appendChild(new_button);
+            items.append( document.createElement("br") );
+           
+        }
+
+        var RefreshTotal = function() {
+            var totalPrice = 0.0;
+            var divTotal = document.getElementById("total");
+            var itemList = document.querySelectorAll("#items > div");
+            itemList.forEach(e => {
+                var itemID = e.getAttribute("itemid");
+                var input_price = e.querySelector("input#price_"+itemID);
+                var input_unit = e.querySelector("input#unit_"+itemID);
+
+                var item_price = input_price.value;
+                var item_unit = input_unit.value;
+
+                totalPrice += item_price * item_unit;
+            });
+            divTotal.innerText = totalPrice+' TL';
+        }
+    </script>
+</html>

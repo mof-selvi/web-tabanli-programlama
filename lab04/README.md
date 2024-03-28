@@ -175,3 +175,13 @@ CSS'de `display` özelliği, bir HTML öğesinin nasıl gösterileceğini belirl
 - Renklerin yaklaşık değerlerde olması, farklı fontta gözüken alanlarda farklı fontlar belirtilmiş olması yeterlidir. Font ve renklerin birebir aynı olması beklenmemektedir.
 
 > HTML dosyanızı Ekampüs'ten yüklemeyi unutmayınız.
+
+
+---
+
+
+# Çözümler
+- [flexli_cozum](flexli_cozum.html)
+
+- [gridli_cozum](gridli_cozum.html)
+

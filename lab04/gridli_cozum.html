@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Tabanlı Programlama - Örnek HTML Sayfası</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid: 24vh 50vh 24vh / 25vw 46vw 25vw;
+            grid-gap: 5px;
+            background-color: #a1c8e7;
+            padding: 5px;
+            height: 96vh;
+        }
+        .grid-container > div {
+            padding: 5px 0;
+            font-size: 30px;
+        }
+        .grid-center {
+            text-align: center;
+        }
+        .grid-color {
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        .img1 {
+            height: 20vh;
+            width: auto;
+        }
+        .img2 {
+            height: 10vh;
+            width: auto;
+        }
+        .dvtbaslik {
+            font-weight: 600;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: larger;
+        }
+        .item5 {
+            border: solid 3px black;
+            align-self: center;
+            padding: 25px !important;
+        }
+        .item7 {
+            text-align: right;
+        }
+        .item9 {
+            text-align: left;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item1"></div>
+        <div class="item2 grid-center"><img src="https://depo.btu.edu.tr/img/sayfa//1691131553_33a20881d67b04f54742.png" class="img1"></div>
+        <div class="item3 item7"><img src="https://depo.btu.edu.tr/img/sayfa//1691132554_284ffd9ee8d6a4286478.png" class="img2"></div>  
+        <div class="item4"></div>
+        <div class="item5 grid-color">
+            <div class="dvtbaslik">Etkinliğe davet</div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. At qui necessitatibus alias facilis ad hic optio ipsam excepturi voluptatum fuga? 
+        </div>
+        
+        <div class="item6"></div>
+        <div class="item7 grid-color">
+            <div class="dvtbaslik">
+                Tarih ve Saat
+            </div>
+            01.01.2025 15:00
+        </div>
+        <div class="item8"></div>
+        <div class="item9 grid-color">
+            <div class="dvtbaslik">
+                Adres
+            </div>
+            Mimar Sinan Mahallesi, Mimar Sinan Bulvarı, Eflak Caddesi, No:177, 16310 Yıldırım/Bursa
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Tabanlı Programlama - Örnek HTML Sayfası</title>
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .cont {
+            display: grid;
+            background-color: aquamarine;
+            height: 100vh;
+            width: 100vw;
+        }
+        .imgcontc {
+            display: flex;
+            justify-content: flex-end;
+        }
+        .item1 {
+            flex: 0 0 46%;
+        }
+        .image {
+            height: 20vh;
+            width: auto;
+            
+        }
+        .imager {
+            height: 10vh;
+            width: auto;
+        }
+        .dvtcont {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .dvt {
+            padding: 50px;
+            min-height: 35vh;
+            width: 50vw;
+            background-color: antiquewhite;
+            border: solid 2px black;
+        }
+        .ikili {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .altmetin {
+            min-height: 50px;
+            width: 30vw;
+            background-color: darkgrey;
+        }
+
+        .sagadayali {
+            text-align: right;
+        }
+        .dvtbaslik {
+            font-weight: 600;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: larger;
+        }
+        .altmetinbaslik {
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cont">
+
+        <div class="imgcontc">
+            
+            <div class="item1">
+                <img src="https://depo.btu.edu.tr/img/sayfa//1691131553_33a20881d67b04f54742.png" class="image">
+            </div>
+
+            <div class="item2">
+                <img src="https://depo.btu.edu.tr/img/sayfa//1691132554_284ffd9ee8d6a4286478.png" class="imager">
+            </div> 
+        </div>
+        <div class="dvtcont">
+
+            <div class="dvt">
+                <div class="dvtbaslik">Etkinliğe davet</div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. At qui necessitatibus alias facilis ad hic optio ipsam excepturi voluptatum fuga? Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias id labore, accusamus quod obcaecati laborum quasi eaque voluptas corporis modi.
+            </div>
+        </div>
+        <div class="ikili">
+            <div class="altmetin sagadayali">
+                <div class="altmetinbaslik">Tarih ve Saat</div>
+                Lorem ipsum dolor sit amet.
+            </div>
+            <div class="altmetin">
+                <div class="altmetinbaslik">Adres</div>
+                Lorem ipsum dolor sit amet consectetur.
+            </div>
+        </div>
+    
+    </div>
+
+</body>
+</html>

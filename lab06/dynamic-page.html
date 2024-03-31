@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Dinamik ve animasyonlu sayfa içerikleri">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Möf Selvi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: rgb(98, 108, 117);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: medium;
+        }
+        .container {
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .dialog-box {
+            border-radius: 0.5rem;
+            color: rgb(56, 45, 41);
+            background-color: rgb(168, 160, 160);
+            padding: 1rem;
+            min-height: 30vh;
+        }
+        .dialog-content {
+            padding: 1rem;
+            border-radius: 0.5rem;
+            background-color: #cfcbcb;
+        }
+        .controllers {
+            margin-top: 1rem;
+            justify-content: space-between;
+            display: flex;
+        }
+        .controllers button {
+            border-radius: 0.5rem;
+            font-size: 1rem;
+            padding: 0.25rem 0.75rem;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="dialog-box">
+            <h1>Animasyonlanmış sayfa içerikleri</h1>
+
+            <div class="dialog-content animate__animated animate__faster">
+            
+            </div>
+            
+            <div class="controllers">
+                <button onclick="go_back()">Geri</button>
+                <button onclick="go_forward()">İleri</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let current_content_no = 0;
+        let contents = [
+            "<p>İçerik 1</p>",
+            "<p>Bu ise içerik 2</p><img height='120' src='https://depo.btu.edu.tr/img/sayfa//1691131969_8a51c342027f1a147a8b.png'>",
+            "<p>Bu da içerik 3</p><img height='120' src='https://depo.btu.edu.tr/img/sayfa//1691132554_284ffd9ee8d6a4286478.png'>",
+        ];
+
+        var dialog_content = document.querySelector(".dialog-content");
+
+        //Bu penceredeki sayfa hazır olduğunda ilk içeriği yükletelim.
+        window.addEventListener('load', function () {
+            refresh_content();
+        });
+
+        //Bir olay takipçisi hazırlıyoruz.
+        //Bu fonksiyonun ilk parametresi takip edilecek olayın ismi.
+        //2. parametre ise olay gerçekleştiğinde çalıştırılacak olan fonksiyon.
+        dialog_content.addEventListener(
+            'animationend',
+            ()=>{
+                refresh_content();
+            }
+        );
+
+        function go_back()
+        {
+            var new_content_no = Math.max(0, current_content_no-1);
+            if (current_content_no==new_content_no)
+            {
+                return;
+            }
+            current_content_no = new_content_no;
+            unload_content();
+        }
+
+        function go_forward()
+        {
+            var new_content_no = Math.min(contents.length-1, current_content_no+1);
+            if (current_content_no==new_content_no)
+            {
+                return;
+            }
+            current_content_no = new_content_no;
+            unload_content();
+        }
+
+        function unload_content()
+        {
+            dialog_content.classList.remove("animate__backInRight");
+            dialog_content.classList.add("animate__backOutLeft");
+        }
+
+        function refresh_content()
+        {
+            dialog_content.innerHTML = contents[current_content_no];
+            dialog_content.classList.remove("animate__backOutLeft");
+            dialog_content.classList.add("animate__backInRight");
+        }
+    </script>
+
+</body>
+
+</html>

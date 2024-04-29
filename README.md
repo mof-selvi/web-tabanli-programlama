@@ -18,4 +18,6 @@ BTU Bilgisayar Mühendisliği Web Tabanlı Programlama Uygulama Örnekleri
 
 [LAB-07](lab07)
 
-[LAB-08](lab08)
+LAB-08 (Ekampüs quizi)
+
+[LAB-09](lab09)

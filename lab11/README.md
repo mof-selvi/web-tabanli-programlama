@@ -1,6 +1,6 @@
-# PHP VERİ TABANI BAĞLANTISI
+# LAB-11
 
-## BAĞLANTI OLUŞTURMA
+## PHP - Veritabanı Bağlantısı Oluşturma
 
 Aşağıda PHP'den MySQL'e bağlanabilmenin en temel 2 yolu verilmiştir. 1 ya da 2 nolu seçenekten birini kullanarak yeni oluşturduğunuz veritabanınıza bağlanınız.
 

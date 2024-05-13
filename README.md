@@ -21,3 +21,7 @@ BTU Bilgisayar Mühendisliği Web Tabanlı Programlama Uygulama Örnekleri
 LAB-08 (Ekampüs quizi)
 
 [LAB-09](lab09)
+
+LAB-10 (Wordpress kurulumu)
+
+[LAB-11](lab11)

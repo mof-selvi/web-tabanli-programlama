@@ -25,3 +25,5 @@ LAB-08 (Ekampüs quizi)
 LAB-10 (Wordpress kurulumu)
 
 [LAB-11](lab11)
+
+[LAB-12](lab12)

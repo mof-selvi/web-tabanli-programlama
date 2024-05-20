@@ -88,7 +88,7 @@ echo "Text: " . $faker->text . "<br>\n";
 ## Alıştırma #1
 - MVC mimarisinde bir `URL kısaltma` uygulaması geliştiriniz.
 
-- Kullanıcılar uygulamanız aracılığıyla `https://website adresi/.../.../sayfa.html` gibi uzun bir URL'i, `http://website/B8dQw4_W9gXa` formatında kısa bir URL'e dönüştürebilmelidir. Yerelde çalışırken adresleriniz `http://localhost/B8dQw4_W9gXa` şeklinde olacaktır.
+- Kullanıcılar uygulamanız aracılığıyla `https://website adresi/.../.../sayfa.html` gibi uzun bir URL'i, `http://website/B8dQw4_W9gXa` formatında kısa bir URL'e dönüştürebilmelidir. Kısa URL'e girenler otomatik olarak orijinal URL'e yönlendirilmelidirler. (Yerelde çalışırken adresleriniz `http://localhost/B8dQw4_W9gXa` şeklinde olacaktır.)
 
 ### Detaylar
 - Ana sayfanızın tam ortasına kullanıcının URL yapıştırabileceği bir metin girdisi alanı (text input) ve bir buton yerleştiriniz.

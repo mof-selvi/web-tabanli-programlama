@@ -23,7 +23,9 @@
 
 * Uygulama derslerimizde yaptığımız alıştırmalar sınavlara ve projelere hazırlanabilmeniz için önemlidir. Tamamlayamadığınız alıştırmalar için yardım isteyebilirsiniz. Lab etkinlikleriniz, dönem sonundaki lab puanlarınızı belirleyecektir.
 * Lab etkinlikleri için cevaplar, lab dersliği içerisinde gönderilmelidir. Uzaktan gönderimler kabul edilmemektedir.
-* Uygulama derslerimizde yoklamalar QR ile alınmaktadır. [http://ceng.btu.edu.tr/qr/](http://ceng.btu.edu.tr/qr/) adresinden kendinize özel QR kodunuzu oluşturunuz. Her uygulama dersi sonrası labı terk ederken QR kodunuzu hocanıza gösteriniz. QR kodunuz isminiz veya numaranız değişmediği sürece hep aynı kalacaktır. Bu kodu telefonunuza indirebilirsiniz veya çıktısını alıp yanınızda taşıyabilirsiniz.
+* Uygulama derslerimizde yoklamalar QR ile alınmaktadır. [http://ceng.btu.edu.tr/qr/](http://ceng.btu.edu.tr/qr/) adresinden kendinize özel QR kodunuzu oluşturunuz.
+> Dikkat! Bazı tarayıcılar veya sohbet programları, bağlantılardaki protokolü otomatik olarak `https` olarak düzeltebilir. Verilen bağlantıyı açmak istediğinizde problem yaşarsanız, başında `http` olduğundan emin olunuz.
+* Her uygulama dersi sonrası labı terk ederken QR kodunuzu hocanıza gösteriniz. QR kodunuz isminiz veya numaranız değişmediği sürece hep aynı kalacaktır. Bu kodu telefonunuza indirebilirsiniz veya çıktısını alıp yanınızda taşıyabilirsiniz.
 * Her öğrenci kendi QR'ından sorumludur. QR'ını zamanında okutmayan veya hatalı bilgilerle QR oluşturanlar herhangi bir hak talep edemezler.
 * Uygulama dersimizin ilk yarım saatinde QR okutamazsınız, son yarım saatinde laba giriş yapamazsınız. QR'ını okutup labdan çıkanlar tekrar laba giriş yapamazlar.
 * Teori dersini takip etmelisiniz ve teori dersinin PDF'lerindeki tüm kodları ders sonrası mutlaka kendiniz de denemelisiniz.

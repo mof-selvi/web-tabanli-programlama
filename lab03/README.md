@@ -3,7 +3,7 @@
 - # CSS'e Giriş
 
 - Aşağıdaki kod tüm \<p> etiketi ile belirlenmiş paragrafların rengini kırmızı (#FF0000) yapar.
-```
+```html
 <!doctype html>
 <html>
 <head>
@@ -23,7 +23,7 @@
 ```
 
 - Class belirleyerek sadece belirli bir grup paragrafın biçimlendirilmesini de sağlayabiliriz. CSS'te class'lar nokta (.) ile başlanarak belirtilir.
-```
+```html
 <!doctype html>
 <html>
 <head>
@@ -44,7 +44,7 @@
 
 - CSS'te bir stilin etkileyeceği grubu belirttiğimiz {...} ifadesinden önceki kısım "selector" olarak adlandırılır. Bir CSS class'ının tüm etiketler için geçerli olması için selector'daki etiket kaldırılabilir.
 - Alt seviyede bulunan bir etiket, üst seviyeden biçimleri (kendisi için bu stiller özellikle belirtilmemişse) kalıtım alır. Bu p ve heading (h1, h2...) için geçerli değildir.
-```
+```html
 <!doctype html>
 <html>
 <head>
@@ -72,7 +72,7 @@
 ```
 
 - HTML'de bir etiket için birden fazla class belirtilebilir.
-```
+```html
 <!doctype html>
 <html>
 <head>
@@ -122,13 +122,13 @@
 - Bu dökümanda şu ana kadar gördüğümüz kodlar "internal CSS" türündendir. Bu türde, CSS kodları \<style>...\</style> etiketleri arasına yazılır.
 - \<style> etiketleri body veya head içerisinde de olabilir fakat bunları head içerisine koymak, sayfa içeriği ile biçimlendirmesini ayırmak için daha mantıklıdır.
 - Genel olarak syntax aşağıdaki gibidir. "type" niteliği belirtilmek zorunda değildir.
-```
+```html
 <style type="text/css"></style>
 ```
 
 - ## Inline CSS
 - Bu türde, CSS komutları (sadece {...} arası) etki etmesi istenen HTML etiketinin "style" niteliği içerisine yazılır.
-```
+```html
 <!doctype html>
 <html>
 <head>
@@ -154,7 +154,7 @@
 - CSS kodları, harici bir *.css dosyasına yazılıp HTML sayfalarda kullanılabilir. Bunun için head etiketleri arasında aşağıdaki gibi css dosyasının konumu belirtilmelidir. (Link etiketindeki type niteliği opsiyoneldir.)
 
 sayfam.html dosyasının içeriği
-```
+```html
 <!doctype html>
 <html>
 <head>
@@ -180,7 +180,7 @@ sayfam.html dosyasının içeriği
 ```
 
 stilim.css dosyasının içeriği:
-```
+```css
 .stilA {
     color: #FF0000;
     font-family: 'Courier New', Courier, monospace;
@@ -219,7 +219,7 @@ stilim.css dosyasının içeriği:
 - # CSS'te Responsive Tasarım
 - Telefon, tablet veya bilgisayar farketmeksizin her türlü ekran çözünürlüğüne uyumlu şekilde bir web uygulaması arayüzü geliştirmek için CSS'in @media kuralı kullanılabilir.
 - Aşağıdaki örneği çalıştırırken tarayıcının genişliğini azaltıp artırmayı deneyiniz. @media kurallarına göre arkaplan renklerinin değiştiğine dikkat ediniz.
-```
+```html
 <!doctype html>
 <html>
 <head>
@@ -277,7 +277,7 @@ stilim.css dosyasının içeriği:
 - # Bulma CSS Kütüphanesi
 - Kolay kullanımlı ve hafif bir CSS kütüphanesidir.
 - Tasarıma başlamak için aşağıdaki HTML kodu kullanmak yeterlidir: ( [Kaynak](https://bulma.io/documentation/overview/start/) )
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -303,7 +303,7 @@ stilim.css dosyasının içeriği:
 
 - Bulma'nın standart içerik yerleştirme alanı container class'ına sahip div etiketinin içidir. (Buna benzer durum Bootstrap vb. kütüphanelerde de vardır.)
 - İçerik kısmına satırlarımızı "columns" sınıfıyla, satır içlerine sütun tanımlamalarımızı ise "column" sınıfıyla yaparız:
-```
+```html
 <!DOCTYPE html>
 <html>
 

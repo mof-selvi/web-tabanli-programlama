@@ -181,6 +181,9 @@ CSS'de `display` özelliği, bir HTML öğesinin nasıl gösterileceğini belirl
 
 
 # Çözümler
+
+> Olayı anlamayanlar için not: bu etkinlikte 100 üzerinden puanlandırılmamaktasınız. Bunun yerine, sizden beklenen çözüm için kendi başınıza denemeler yapmanız ve yapabildiğiniz kadarını göndermeniz beklenmektedir. Bu etkinliğie ait gönderimleriniz katıldı/katılmadı şeklinde notlandırılacaktır.
+
 - [flexli_cozum](flexli_cozum.html)
 
 - [gridli_cozum](gridli_cozum.html)

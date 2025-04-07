@@ -780,7 +780,7 @@ buttonElement.addEventListener("click", function() {
 ---
 
 
-# Alıştırma #1
+# Alıştırma
 - Alışveriş listesi tutmaya ve hesaplamaya yardımcı olan basit Single Page App hazırlayınız.
 - Tüm alıştırmayı tek bir HTML dosyası içerisinde hazırlayınız.
 - Aşağıdakine benzer şekilde 3 bölmeli anlaşılır bir arayüz tasarlayınız.
@@ -810,6 +810,6 @@ buttonElement.addEventListener("click", function() {
 
 ---
 
-# Çözüm #1
-- [shopping](shopping.html)
+> Çözüm daha sonra Ekampüs'ten paylaşılacaktır.
+
 

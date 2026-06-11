@@ -1,0 +1,5 @@
+# CPU-only PyTorch ve görsel işleme paketleri (Linux & Windows için idealdir)
+--index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+pillow
